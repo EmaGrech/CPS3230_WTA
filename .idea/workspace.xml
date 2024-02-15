@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0159a1f1-6005-40f2-b566-4f290d42dbd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cider.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CiderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CiderTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Reachability of product categories (Check at least 5 categories)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Search functionality">
     <configuration name="Scenario: Reachability of product categories (Check at least 5 categories)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cider.feature" />
@@ -62,6 +58,25 @@
       <option name="NAME_FILTER" value="^Reachability of product categories \(Check at least 5 categories\)$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Reachability of product categories \(Check at least 5 categories\)$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Reachability of product categories (Check at least 5 categories)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Search functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cider.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CPS3230_WTA" />
+      <option name="NAME_FILTER" value="^Search functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -92,16 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CiderTests.minimumProductsAreMoreThan_SearchResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CPS3230_WTA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CiderTests" />
-      <option name="METHOD_NAME" value="minimumProductsAreMoreThan_SearchResult" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CPS3230_WTA" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Search functionality" />
         <item itemvalue="Cucumber Java.Scenario: Reachability of product categories (Check at least 5 categories)" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.CiderTests" />
         <item itemvalue="JUnit.CiderTests.accessSpecifiedProduct" />
-        <item itemvalue="JUnit.CiderTests.minimumProductsAreMoreThan_SearchResult" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +140,7 @@
       <workItem from="1707524155661" duration="7359000" />
       <workItem from="1707572864458" duration="56000" />
       <workItem from="1707836932336" duration="3850000" />
-      <workItem from="1708014171112" duration="3937000" />
+      <workItem from="1708014171112" duration="4278000" />
     </task>
     <servers />
   </component>
