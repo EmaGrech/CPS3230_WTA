@@ -150,6 +150,8 @@ public class CiderTests
 }*/
 
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -174,7 +176,7 @@ public class CiderTests
 
     private List<WebElement> products;
 
-    @BeforeEach
+    @Before
     public void setup()
     {
         //driver setup
@@ -182,7 +184,7 @@ public class CiderTests
         driver = new ChromeDriver();
     }
 
-    @AfterEach
+    @After
     public void teardown()
     {
         driver.quit();
@@ -196,7 +198,7 @@ public class CiderTests
     }
 
     @When("I visit the website")
-    public void iVisitTheNewsWebsite()
+    public void iVisitTheWebsite()
     {
         driver.get("https://www.shopcider.com");
     }
