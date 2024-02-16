@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0159a1f1-6005-40f2-b566-4f290d42dbd1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/CiderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CiderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CiderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CiderObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CiderObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CiderTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cider.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cider.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,25 +35,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/emagr/Downloads/cucumber-demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emagr/Downloads/cucumber-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Search functionality">
+}</component>
+  <component name="RunManager" selected="Cucumber Java.Feature: cider">
+    <configuration name="Feature: cider" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cider.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CPS3230_WTA" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: cider" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Reachability of product categories (Check at least 5 categories)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/cider.feature" />
@@ -97,16 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CiderTests.accessSpecifiedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CPS3230_WTA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CiderTests" />
-      <option name="METHOD_NAME" value="accessSpecifiedProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CPS3230_WTA" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Search functionality" />
+        <item itemvalue="Cucumber Java.Feature: cider" />
         <item itemvalue="Cucumber Java.Scenario: Reachability of product categories (Check at least 5 categories)" />
+        <item itemvalue="Cucumber Java.Scenario: Search functionality" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.CiderTests" />
-        <item itemvalue="JUnit.CiderTests.accessSpecifiedProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +153,9 @@
       <workItem from="1707524155661" duration="7359000" />
       <workItem from="1707572864458" duration="56000" />
       <workItem from="1707836932336" duration="3850000" />
-      <workItem from="1708014171112" duration="4278000" />
+      <workItem from="1708014171112" duration="4803000" />
+      <workItem from="1708039768864" duration="2881000" />
+      <workItem from="1708042671560" duration="4063000" />
     </task>
     <servers />
   </component>
