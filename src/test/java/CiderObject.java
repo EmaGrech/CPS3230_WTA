@@ -63,6 +63,7 @@ public class CiderObject
     {
         //Accessing search bar
         WebElement searchBar = driver.findElement(By.xpath("//div[@class='header-search']//input"));
+
         searchBar.click();
 
         //wait for searchbar to load
